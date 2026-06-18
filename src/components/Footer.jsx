@@ -7,7 +7,7 @@ import { locations } from "../data/locations";
 
 const createSlug = (location) => {
   return location
-    .replace(", Faridabad", "")
+    .replace(", Gurgaon", "")
     .toLowerCase()
     .replace(/,/g, "")
     .replace(/\s+/g, "-")
@@ -174,12 +174,12 @@ const [showDisclaimer, setShowDisclaimer] = useState(false);
         Contact
       </Link>
 
-      <Link
+      {/* <Link
         href="/how-it-works"
         className="text-gray-400 hover:text-[#FF5A5A] transition"
       >
         How It's Work
-      </Link>
+      </Link> */}
 
     </div>
   </div>
