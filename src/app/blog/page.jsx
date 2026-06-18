@@ -27,7 +27,7 @@ keywords: [
   "real estate blog Faridabad"
 ],
     alternates: {
-      canonical: "www.residentialprojectsinfaridabad.com/blog", // 🔥 apna real domain yaha replace karna
+      canonical: "www.luxuryapartmentsingurgaon.com/blog", // 🔥 apna real domain yaha replace karna
     },
   };
 }

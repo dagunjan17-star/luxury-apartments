@@ -6,7 +6,7 @@ import axios from "axios";
 
 const BlogContext = createContext();
 
-const DOMAIN = "www.residentialprojectsinfaridabad.com";
+const DOMAIN = "www.luxuryapartmentsingurgaon.com";
 const BASE_URL = "https://faridabad-backend.onrender.com";
 
 export const BlogProvider = ({ children }) => {

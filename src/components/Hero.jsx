@@ -103,23 +103,18 @@ setPopup({
         {/* LEFT CONTENT */}
         {/* LEFT CONTENT */}
 <div className="md:col-span-7 lg:col-span-8 text-white">
-  <h1 className="text-2xl lg:text-4xl font-bold mb-6 leading-tight">
-    Find Every Residential Project in Gurgaon,{" "}
+  <h1 className="text-2xl lg:text-3xl font-bold mb-6 leading-tight">
+    Explore Premium Luxury Apartments & Properties in Gurgaon,{" "}
     <span className="text-[#FF5A5A]">
-      All in One Place
+      — Buy, Sell & Rent Elite Homes in Gurugram
     </span>
   </h1>
 
-  <p className="text-lg max-w-2xl text-gray-300 leading-relaxed">
-    Looking for your dream home in Gurgaon? Discover all residential projects
-    across Gurgaon in one place. Explore affordable apartments, premium
-    residences, luxury villas, and gated communities in prime locations such
-    as Golf Course Road, Golf Course Extension Road, Sohna Road, New Gurgaon,
-    Dwarka Expressway, Sector 79, Sector 92, and Southern Peripheral Road.
-    Compare verified listings with updated prices, RERA details, floor plans,
-    amenities, builder information, and location insights. Whether you're a
-    first-time homebuyer, an investor, or looking to upgrade your lifestyle,
-    find trusted property information without middlemen or hidden charges.
+  <p className="text-sm max-w-5xl text-gray-300 leading-relaxed">
+   Gurgaon stands today as the undisputed capital of luxury real estate in North India. From sky-high ultra-premium penthouses overlooking the Aravalli hills to sprawling gated villa communities with world-class amenities, the Gurugram luxury property market offers a lifestyle experience that is unmatched anywhere in the National Capital Region. If you are seeking a prestigious address, a high-yield luxury investment, or an elite rental home that matches the pace and aspiration of your life, you have arrived at the right destination. Welcome to Gurgaon's most comprehensive luxury property directory — a curated, trusted platform where India's finest residential properties across Gurugram are listed in one authoritative, easy-to-navigate destination.
+Our directory showcases verified luxury apartments, premium penthouses, ultra-luxury villas, high-end builder floors, and exclusive gated community residences across Gurgaon's most coveted addresses — Golf Course Road, Golf Course Extension Road, DLF 5, Sohna Road, Dwarka Expressway, Sector 42, Sector 54, Sector 65, and the prestigious Southern Peripheral Road corridor. Whether you are a discerning homebuyer seeking a 4 BHK luxury apartment with concierge services and sky lounges, an investor looking to capitalise on Gurgaon's booming premium property appreciation, or a senior executive requiring a fully furnished luxury rental close to Cyber City or Udyog Vihar, our platform brings you the most complete and current inventory of elite properties in Gurugram.
+Every listing on our platform is detailed, verified, and presented with high-resolution imagery, complete amenity information, carpet area specifications, builder credentials, RERA registration details, and pricing transparency — so your luxury property search in Gurgaon is never a guessing game. Stop scrolling through generic portals crowded with mid-range listings. Begin your premium property journey here, where luxury is the baseline, not the exception. Explore listings, compare properties, and take the first step toward your most prestigious address in Gurgaon today.
+
   </p>
 </div>
 

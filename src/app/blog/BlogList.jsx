@@ -44,7 +44,7 @@ export default function BlogList() {
   {/* ===== HEADING ===== */}
   <div className="mb-14">
     <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-      Luxury Real Estate Insights &{" "}
+      Luxury Apartment Insights &{" "}
       <span className="bg-gradient-to-r from-[#FF5A5A] to-[#FF3B3B] bg-clip-text text-transparent">
         Gurgaon Market Updates
       </span>

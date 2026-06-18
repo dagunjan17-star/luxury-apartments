@@ -10,7 +10,7 @@ async function getBlogData(slug) {
   try {
     console.log("slug =>",slug)
     const res = await fetch(
-      `https://faridabad-backend.onrender.com/blogs/getBlogBySlug/${slug}?domain=www.residentialprojectsinfaridabad.com`,
+      `https://faridabad-backend.onrender.com/blogs/getBlogBySlug/${slug}?domain=www.luxuryapartmentsingurgaon.com`,
       {
          cache: "force-cache",
         next: { revalidate: 120 }, // revalidate every 2 minutes
@@ -59,7 +59,7 @@ return {
     "Read expert insights on residential projects in Faridabad, upcoming developments, property market trends, home buying tips, luxury apartments, and real estate investment opportunities.",
 
   alternates: {
-    canonical: `https://www.residentialprojectsinfaridabad.com/blog/${slug}`,
+    canonical: `https://www.luxuryapartmentsingurgaon.com/blog/${slug}`,
   },
 };
 }

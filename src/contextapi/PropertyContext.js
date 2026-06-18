@@ -12,7 +12,7 @@ const [totalItems, setTotalItems] = useState(0);
   // Pagination State
   const [currentPage, setCurrentPage] = useState(1);
 
-  const itemsPerPage = 102;
+  const itemsPerPage = 100;
 
   const getProjectByCity = async (page = 1) => {
     try {
