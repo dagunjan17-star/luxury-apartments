@@ -4,27 +4,24 @@ import BlogList from "./BlogList";
 export async function generateMetadata() {
   return {
    title:
-  "Residential Projects Blog | New Launches, Property Updates & Investment Insights in Faridabad",
+  "Gurgaon Luxury Real Estate Blog | Market Insights & Tips",
 
 description:
-  "Explore the latest blogs on residential projects in Faridabad, new project launches, luxury apartments, builder floors, affordable housing developments, investment opportunities, market trends, and expert home buying advice.",
+  "Read expert insights on luxury apartments in Gurgaon, market trends, investment tips, NRI buying guides & premium project updates. Updated regularly for buyers.",
 
 keywords: [
-  "residential projects Faridabad",
-  "new residential projects Faridabad",
-  "luxury apartments Faridabad",
-  "builder floors Faridabad",
-  "affordable housing Faridabad",
-  "upcoming projects Faridabad",
-  "property investment Faridabad",
-  "real estate trends Faridabad",
-  "home buying guide Faridabad",
-  "best residential projects Faridabad",
-  "residential property news Faridabad",
-  "Nehar Par projects Faridabad",
-  "apartments in Faridabad",
-  "housing projects Faridabad",
-  "real estate blog Faridabad"
+  "gurgaon luxury real estate blog",
+  "luxury apartment market trends gurgaon",
+  "gurgaon property investment tips",
+  "luxury housing insights gurugram",
+  "latest news on luxury apartments in gurgaon",
+  "gurgaon luxury property market trends 2025",
+  "nri guide to buying luxury apartments in gurgaon",
+  "capital appreciation",
+  "rental yield",
+  "rera updates",
+  "golf course road price trends",
+  "dwarka expressway infrastructure"
 ],
     alternates: {
       canonical: "www.luxuryapartmentsingurgaon.com/blog", // 🔥 apna real domain yaha replace karna

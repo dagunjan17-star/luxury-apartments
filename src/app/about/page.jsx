@@ -2,12 +2,26 @@ import AboutPage from "./AboutSection";
 
 
 export const metadata = {
-  title: "About Us | Trusted Plot Dealers in Faridabad | Real Estate Experts",
+  title: "About Us | Gurgaon's Trusted Luxury Property Directory",
   description:
-    "We are Faridabad's most trusted real estate platform for plots on sale. 100% verified plot listings, zero brokerage & expert guidance. Helping families & investors find their perfect residential & commercial plot in Faridabad at the best price.",
+    "Learn how our luxury property directory curates verified premium apartments in Gurgaon, helping buyers, investors & NRIs find trusted high-end real estate.",
   keywords: [
- "plot dealers Faridabad", "trusted real estate agents Faridabad", "land consultants Faridabad", "verified plots for sale Faridabad", "best plot dealers Faridabad", "Faridabad real estate experts", "no brokerage plot Faridabad", "about us real estate Faridabad", "residential plot experts Faridabad", "land investment experts Faridabad"
-  ],
+  "luxury property directory gurgaon",
+  "trusted real estate platform gurgaon",
+  "verified luxury listings gurgaon",
+  "about luxury apartments gurgaon",
+  "most trusted luxury property website in gurgaon",
+  "how luxury apartments are verified in gurugram",
+  "luxury real estate consultant gurgaon about us",
+  "rera verified properties",
+  "developer credentials",
+  "nri property buyers",
+  "curated listings",
+  "real estate transparency"
+],
+   alternates: {
+    canonical: "https://www.luxuryapartmentsingurgaon.com/about",
+  },
 };
 
 export default function Page() {
