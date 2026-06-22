@@ -56,22 +56,36 @@ export default function ResidentialProjectsContent() {
             </span>
           </h2>
 
-          <div className="mt-10 space-y-10">
-            {sections.map((item, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-3xl p-6 md:p-8 border border-red-100 shadow-sm hover:shadow-lg transition-all duration-300"
-              >
-                <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-                  {item.title}
-                </h3>
+          <div className="mt-12 relative">
+  <div className="absolute left-5 top-0 bottom-0 w-[2px] bg-gradient-to-b from-[#FF5A5A] to-transparent hidden md:block" />
 
-                <p className="text-base md:text-lg leading-8 text-gray-600">
-                  {item.content}
-                </p>
-              </div>
-            ))}
+  <div className="space-y-8">
+    {sections.map((item, index) => (
+      <div
+        key={index}
+        className="group relative bg-white rounded-[32px] border border-gray-100 p-8 md:p-10
+        hover:border-[#FF5A5A]/30 hover:shadow-2xl transition-all duration-500"
+      >
+        {/* Number */}
+        <div className="absolute -left-3 md:-left-5 top-8">
+          <div className="w-12 h-12 rounded-full bg-gradient-to-r from-[#FF5A5A] to-rose-500 text-white flex items-center justify-center font-bold text-lg shadow-lg">
+            {index + 1}
           </div>
+        </div>
+
+        <div className="pl-6 md:pl-10">
+          <h3 className="text-xl md:text-3xl font-bold text-gray-900 mb-5 group-hover:text-[#FF5A5A] transition">
+            {item.title.replace(/^\d+\.\s*/, "")}
+          </h3>
+
+          <p className="text-gray-600 leading-8 text-base md:text-lg">
+            {item.content}
+          </p>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
 
         </div>
       </div>
