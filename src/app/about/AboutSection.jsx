@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import DisclaimerSection from "./DisclaimerSection";
 
 export default function AboutPage() {
    const faqs = [
@@ -297,6 +298,7 @@ This platform was built to close that gap permanently. We are Gurgaon's dedicate
     </div>
   </div>
 </section>
+<DisclaimerSection/>
     </section>
   );
 }
